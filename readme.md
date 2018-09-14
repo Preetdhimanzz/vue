@@ -5,16 +5,14 @@ composer install
 # Run Migrations
 php artisan migrate
 
-# Import Articles
+# Import records
 php artisan db:seed
-
-# Add virtual host if using Apache
 
 # If you get an error about an encryption key
 php artisan key:generate
 
-# Install JS Dependencies
+# Install Dependencies
 npm install
 
-# Watch Files
-npm run watch
+# Watch Files to start VUE
+npm run watch 
